@@ -1,0 +1,67 @@
+#bar{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(68, 122, 228);
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    
+}
+
+#main-nav{
+    background-color: #277474;
+    
+
+}
+#main-nav li{
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    color: black;
+    
+}
+
+#main-nav li:hover{
+    background-color:cyan ;
+}
+
+a{ text-decoration: none;
+    color: black
+}
+.MainArea{
+    color: azure;
+    background-color: darkblue;
+    width: 100% ;
+    height: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}  
+
+.content-box{
+    margin: 10px;
+    width:40%;
+    float: left;
+    padding: 10px;
+    border:2px solid black;
+    border-radius: 15px;
+   background-color: aquamarine;
+   color:black;
+
+}  
+#Name:focus{
+    width: 500px;
+}
+#Rules{
+    margin:10px;
+    margin-right: 15px;
+    width: 20%;
+    padding-left: 10px;
+    float:right;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(70, 70, 152);
+}
+#Rules:hover{
+    background-color: rgb(255, 106, 0);
+
+}
